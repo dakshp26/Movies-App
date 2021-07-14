@@ -1,4 +1,4 @@
-const APIKEY = "<enter api key generated from your tmdb account here>"
+const APIKEY = "<enter your tmdb api key here>"
 const APIURL = "https://api.themoviedb.org/3/discover/movie?api_key="+APIKEY+"&language=en-US&sort_by=popularity.desc&page=1";
 const IMGPATH = 'https://image.tmdb.org/t/p/w500/';
 const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?api_key="+APIKEY+"&language=en-US&sort_by=popularity.desc&query=";
@@ -22,7 +22,6 @@ function showMovies(movies){
     movies.forEach(movie => {
         const {poster_path, title, vote_average} = movie;
         var {overview} = movie
-        console.log(movie)
         if(poster_path === null){
             return movies
            
