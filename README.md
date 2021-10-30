@@ -1,5 +1,5 @@
 # Movies-App
-In this project, I have used <a href = "https://www.themoviedb.org/">TMDB API</a> to fetch movie data and displayed it beautifully using HTML, CSS and JavaScript.
+In this project, I have used <a href = "https://www.themoviedb.org/">TMDB API</a> to fetch movie data and displayed it using HTML, CSS and JavaScript.
 
 ## The home screen shows popular movies using the tmdb API
 
