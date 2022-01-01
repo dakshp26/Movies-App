@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Movies-App
+In this project, I have used <a href = "https://www.themoviedb.org/">TMDB API</a> to fetch movie data and displayed it using HTML, CSS and JavaScript.
 
-You can use the [editor on GitHub](https://github.com/dakshp26/Movies-App/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## The home screen shows popular movies using the tmdb API
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![movies app ss](https://user-images.githubusercontent.com/85281998/125626484-5471d029-a70e-49d0-96ab-02a65ce190fc.png)
 
-### Markdown
+## One can search for a movie using the search bar present at the top
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![ss before hover](https://user-images.githubusercontent.com/85281998/125626488-d01ce742-ec0b-4a4a-8046-7262b6c9ee13.png)
 
-```markdown
-Syntax highlighted code block
+## One can also view the description of a movie by hovering over the movie's card
+- Have added a transition effect when overview pops over the movie card which is not visible in the given image
 
-# Header 1
-## Header 2
-### Header 3
+![ss after hover](https://user-images.githubusercontent.com/85281998/125626487-1eef09cf-7575-4776-a27d-8c0d16d65473.png)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dakshp26/Movies-App/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Note: Please enter your own API Key. Generate this key by going to their official website (linked above).
